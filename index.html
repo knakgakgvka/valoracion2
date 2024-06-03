@@ -1,0 +1,92 @@
+FILA2
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos CSS para los marcos */
+        body {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .frame {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .small-img {
+            width: 150px; /* Ajusta el ancho de la imagen */
+            height: auto; /* Mantiene la proporción de la imagen */
+            display: block;
+            margin: 20px auto; /* Centra la imagen horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <div class="frame" id="frameA">
+        <h1>BIENVENIDO A MI PÁGINA</h1>
+        <p>Autor: Sebastian Campos</p>
+        <p>Valoración: ★★★☆☆</p>
+        <a href="file:///C:/Users/SCPC105/Downloads/campos.html">Ir a la página interna</a>
+    </div>
+    <div class="frame" id="frameB">
+        <h2>Mis Conocimientos</h2>
+        <ul>
+            <li>Conocimiento 1: Aprender a programar</li>
+            <li>Conocimiento 2: Crear una página web</li>
+            <li>Conocimiento 3: Aprender otros lenguajes de programación</li>
+        </ul>
+        <img src="campos.jfif" alt="Mi Foto" class="small-img">
+    </div>
+    <div class="frame" id="frameC">
+        <h2>Tabla de Registro</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Materias</th>
+                <th>Horas</th>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>Matemáticas</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Inglés</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>Psicología</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Andrés</td>
+                <td>Física</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </div>
+    <div class="frame" id="frameD">
+        <iframe src="file:///C:/Users/SCPC105/Music/sebastian%20campos.HTML" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
